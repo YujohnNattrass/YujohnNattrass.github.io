@@ -1,0 +1,119 @@
+body {
+  color: black;
+}
+
+h2 {
+  color: black;
+  font-size: 2em;
+}
+
+.inner {
+  text-align: center;
+}
+
+.image.avatar img {
+  border: 1px solid #fff;
+}
+
+.work-item h3 {
+  font-size: 1.3em;
+  color: black;
+}
+
+a.button {
+  border: 3px solid black;
+  color: black !important;
+}
+
+a.case-study-btn:hover {
+  background-color: #acacad;
+}
+
+.ableContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ableArchitectureContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imageAnchor {
+  border: none;
+}
+
+@media screen and (min-width: 981px) {
+  .ableContainer,
+  .ableArchitectureContainer {
+    flex-direction: row;
+  }
+
+  .ableContainer p {
+    display: block;
+    width: 45%;
+  }
+}
+
+#main {
+  padding: 3em 4em;
+}
+
+#one > div > img {
+  width: 50%;
+  min-width: 200px;
+  height: auto;
+}
+
+#two img {
+  box-shadow: 0 0 25px #d2d7d3;
+}
+
+#two h3 {
+  padding-bottom: 0.5em;
+}
+
+#header .image.avatar {
+  margin: 0;
+}
+
+#header {
+  background-color: #acacad;
+  padding: 3em 4em;
+}
+
+#footer {
+  background-color: #acacad;
+}
+
+a {
+  color: #1f3264;
+}
+
+#header:hover {
+  color: #1f3264;
+}
+
+#header p {
+  color: black;
+  margin: 0 0 0.5em;
+  text-align: left;
+}
+
+#header h1 {
+  color: black;
+  font-size: 2em;
+  padding: 0 0 1em;
+}
+
+#header .image.avatar {
+  width: 11.25em;
+}
+
+#footer .icons a {
+  color: black;
+}
