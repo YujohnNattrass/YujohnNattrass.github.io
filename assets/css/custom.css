@@ -41,6 +41,10 @@ a.case-study-btn:hover {
   justify-content: space-between;
 }
 
+.ableContainer p {
+  margin: 1em 0 2em 0;
+}
+
 .ableArchitectureContainer {
   display: flex;
   flex-direction: column-reverse;
