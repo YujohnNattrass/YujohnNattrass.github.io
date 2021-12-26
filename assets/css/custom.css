@@ -2,9 +2,14 @@ body {
   color: black;
 }
 
+h1 {
+  font-weight: bold;
+}
+
 h2 {
   color: black;
   font-size: 2em;
+  font-weight: bold;
 }
 
 .inner {
