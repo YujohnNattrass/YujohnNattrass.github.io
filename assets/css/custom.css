@@ -25,6 +25,10 @@ h2 {
   color: black;
 }
 
+.shadow {
+  filter: drop-shadow(5px 5px 5px #d3d0d0dc);
+}
+
 a.button {
   border: 3px solid black;
   color: black !important;
@@ -79,7 +83,7 @@ a.case-study-btn:hover {
 }
 
 #two img {
-  box-shadow: 0 0 25px #d2d7d3;
+  filter: drop-shadow(5px 5px 5px #d3d0d0dc);
 }
 
 #two h3 {
