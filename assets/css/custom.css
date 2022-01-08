@@ -80,6 +80,10 @@ a.case-study-btn:hover {
   padding: 3em 4em;
 }
 
+.img-link:hover {
+  cursor: pointer;
+}
+
 #one > div > img {
   width: 50%;
   min-width: 200px;
